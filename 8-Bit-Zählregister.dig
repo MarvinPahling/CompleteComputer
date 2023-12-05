@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <circuit>
   <version>1</version>
-  <attributes/>
+  <attributes>
+    <entry>
+      <string>Width</string>
+      <int>5</int>
+    </entry>
+  </attributes>
   <visualElements>
     <visualElement>
       <elementName>In</elementName>
@@ -141,25 +146,6 @@
       </elementAttributes>
       <pos x="-40" y="-40"/>
     </visualElement>
-    <visualElement>
-      <elementName>Clock</elementName>
-      <elementAttributes>
-        <entry>
-          <string>runRealTime</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>Frequency</string>
-          <int>10</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-100" y="480"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Or</elementName>
-      <elementAttributes/>
-      <pos x="320" y="440"/>
-    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -179,10 +165,6 @@
       <p2 x="520" y="160"/>
     </wire>
     <wire>
-      <p1 x="-100" y="480"/>
-      <p2 x="320" y="480"/>
-    </wire>
-    <wire>
       <p1 x="-40" y="-40"/>
       <p2 x="-20" y="-40"/>
     </wire>
@@ -193,10 +175,6 @@
     <wire>
       <p1 x="500" y="360"/>
       <p2 x="560" y="360"/>
-    </wire>
-    <wire>
-      <p1 x="380" y="460"/>
-      <p2 x="540" y="460"/>
     </wire>
     <wire>
       <p1 x="200" y="140"/>
@@ -239,12 +217,12 @@
       <p2 x="700" y="-120"/>
     </wire>
     <wire>
-      <p1 x="-100" y="440"/>
-      <p2 x="320" y="440"/>
-    </wire>
-    <wire>
       <p1 x="520" y="280"/>
       <p2 x="560" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="-100" y="440"/>
+      <p2 x="540" y="440"/>
     </wire>
     <wire>
       <p1 x="80" y="-60"/>
@@ -284,7 +262,7 @@
     </wire>
     <wire>
       <p1 x="540" y="340"/>
-      <p2 x="540" y="460"/>
+      <p2 x="540" y="440"/>
     </wire>
   </wires>
   <measurementOrdering/>
